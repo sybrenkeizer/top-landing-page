@@ -1,6 +1,6 @@
 # top-landing-page
 
-The Odin Project Foundations
+The Odin Project - Foundations
 
 Project #2: Landing page
 
@@ -8,10 +8,8 @@ Source: https://sybrenkeizer.github.io/top-landing-page/
 
 Language used: HTML, CSS
 
-Date created: 23/03/22
+Date created: 24/03/22
 
-Hours spend: ...
+Hours spend:
 
 Learned:
-
-  - something
