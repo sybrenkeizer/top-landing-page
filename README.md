@@ -6,10 +6,14 @@ Project #2: Landing page
 
 Source: https://sybrenkeizer.github.io/top-landing-page/
 
-Language used: HTML, CSS
+Languages: HTML, CSS
 
-Date created: 24/03/22
+Date start: 24/03/2022
 
-Hours spend:
+Date finish:
+
+Hours:
 
 Learned:
+
+Improve:
