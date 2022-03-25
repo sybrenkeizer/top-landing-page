@@ -10,10 +10,12 @@ Languages: HTML, CSS
 
 Date start: 24/03/2022
 
-Date finish:
+Date finish: 25/03/2022
 
-Hours:
+Hours: 7
 
 Learned:
+
+  - Refresh HTML, CSS and Git basics
 
 Improve:
