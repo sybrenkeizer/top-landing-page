@@ -24,15 +24,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,90&display=swap" rel="stylesheet">
     <title>TOR Product Page</title>
   </head>
   <body>
-    <div class="wrapper">
 
-      <!-- 1 HEADER -->
-      <nav class="main-nav">
-        <a href="#"><span>Header Logo</span></a>
+    <!-- 1 HEADER -->
+    <nav class="main-nav">
+      <div class="container main-nav__container">
+        <a href="#"><span class="brand">Header Logo</span></a>
         <ul class="main-nav__list">
           <li class="main-nav__item">
             <a href="" class="main-nav__link">Header Link One</a>
@@ -44,72 +44,82 @@
             <a href="" class="main-nav__link">Header Link Three</a>
           </li>
         </ul>
-      </nav>
+      </div>
+    </nav>
 
-      <!-- 2 HERO -->
-      <main>
-        <section class="hero">
-          <div class="hero__container">
-            <div class="hero__text-box">
-              <h1 class="header hero__header">This Website is Awesome</h1>
-              <p class="headline hero__headline">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-              <a href="" class="button hero__button">sign up</a>
-            </div>
-            <div class="hero__image-box">
-              <img src="" alt="">
-            </div>
+    <!-- 2 HERO -->
+    <main>
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__text-box">
+            <h1 class="header hero__header">This Website is Awesome</h1>
+            <p class="headline hero__headline">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
+            <a href="" class="button hero__button">Sign up</a>
           </div>
-        </section>
-
-        <!-- 3 FEATURES -->
-        <section class="features">
-          <h2 class="header features__header">Some random information</h2>
-          <div class="features__container">
-            <div class="feature feature__content-box">
-              <img src="" alt="" class="feature__image">
-              <p class="feature__text">this is some subtext under an illustration or image</p>
-            </div>
-            <div class="feature feature__content-box">
-              <img src="" alt="" class="feature__image">
-              <p class="feature__text">this is some subtext under an illustration or image</p>
-            </div>
-            <div class="feature feature__content-box">
-              <img src="" alt="" class="feature__image">
-              <p class="feature__text">this is some subtext under an illustration or image</p>
-            </div>
-            <div class="feature feature__content-box">
-              <img src="" alt="" class="feature__image">
-              <p class="feature__text">this is some subtext under an illustration or image</p>
-            </div>
+          <div class="hero__image-box">
+            <p class="hero__image-placeholder">this is a placeholder for an image</p>
+            <img src="" alt="">
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- 4 QUOTE -->
-        <section class="quote">
-            <div class="quote__container">
-              <p class="quote__text">This is an inspiring quote or testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. WHo knows? All I know is that it looks nice.</p>
-              <p class="quote__author">Thor, God of Thunder</p>
+      <!-- 3 FEATURES -->
+      <section class="features">
+        <h2 class="header features__header">Some random information.</h2>
+        <div class="container features__container">
+          <div class="feature feature__content-box">
+            <div class="image-box features__image-box">
+              <img src="" alt="" class="feature__image">
             </div>
-        </section>
-
-        <!-- CALL TO ACTION -->
-        <section class="cta">
-          <div class="cta__container">
-            <div class="cta__text-box">
-              <h3 class="header cta__header">Call to action! It's time!</h3>
-              <p class="headline cta__headline">Sign up for our product by clicking that button right over there!</p>
-            </div>
-            <div class="cta__button-box">
-              <a href="" class="button cta__button">Sign up</a>
-            </div>
+            <p class="feature__text">this is some subtext under an illustration or image</p>
           </div>
-        </section>
-      </main>
+          <div class="feature feature__content-box">
+            <div class="image-box features__image-box">
+              <img src="" alt="" class="feature__image">
+            </div>
+            <p class="feature__text">this is some subtext under an illustration or image</p>
+          </div>
+          <div class="feature feature__content-box">
+            <div class="image-box features__image-box">
+              <img src="" alt="" class="feature__image">
+            </div>
+            <p class="feature__text">this is some subtext under an illustration or image</p>
+          </div>
+          <div class="feature feature__content-box">
+            <div class="image-box features__image-box">
+              <img src="" alt="" class="feature__image">
+            </div>
+            <p class="feature__text">this is some subtext under an illustration or image</p>
+          </div>
+        </div>
+      </section>
 
-      <!-- FOOTER -->
-      <footer>
-        <small>Copyright &copy The Odin Project 2021</small>
-      </footer>
-    </div> <!-- CLOSURE WRAPPER -->
+      <!-- 4 QUOTE -->
+      <section class="quote">
+          <div class="container quote__container">
+            <p class="quote__text">This is an inspiring quote or testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p class="quote__author">Thor, God of Thunder</p>
+          </div>
+      </section>
+
+      <!-- CALL TO ACTION -->
+      <section class="cta">
+        <div class="container cta__container">
+          <div class="cta__text-box">
+            <h3 class="header cta__header">Call to action! It's time!</h3>
+            <p class="headline cta__headline">Sign up for our product by clicking that button right over there!</p>
+          </div>
+          <div class="cta__button-box">
+            <a href="" class="button cta__button">Sign up</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <small>Copyright &copy The Odin Project 2021</small>
+    </footer>
   </body>
 </html>
